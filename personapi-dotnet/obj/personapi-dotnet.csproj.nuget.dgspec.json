@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valeg\\Documents\\Arquitectura\\Talleres\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {}
+    "/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/personapi-dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valeg\\Documents\\Arquitectura\\Talleres\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {
+    "/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/personapi-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valeg\\Documents\\Arquitectura\\Talleres\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
+        "projectUniqueName": "/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/personapi-dotnet.csproj",
         "projectName": "personapi-dotnet",
-        "projectPath": "C:\\Users\\valeg\\Documents\\Arquitectura\\Talleres\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
-        "packagesPath": "C:\\Users\\valeg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valeg\\Documents\\Arquitectura\\Talleres\\personapi-dotnet\\personapi-dotnet\\obj\\",
+        "projectPath": "/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/personapi-dotnet.csproj",
+        "packagesPath": "/Users/sage/.nuget/packages/",
+        "outputPath": "/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\valeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sage/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -59,6 +52,8 @@
               "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.4, )"
             }
@@ -82,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

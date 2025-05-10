@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "http": {
+    "personapi-dotnet": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

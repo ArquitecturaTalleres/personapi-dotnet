@@ -1,0 +1,57 @@
+@model personapi_dotnet.Models.Entities.Estudio
+@{
+    ViewData["Title"] = "Agregar Estudio";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0"><i class="fas fa-graduation-cap mr-2"></i>@ViewData["Title"]</h2>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Create" method="post" class="needs-validation" novalidate>
+                <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <select asp-for="CcPer" class="form-select" asp-items="@(new SelectList(ViewBag.Personas, "Cc", "Nombre"))" required>
+                                <option value="">Seleccione una persona</option>
+                            </select>
+                            <label asp-for="CcPer" class="form-label">Persona</label>
+                            <div class="invalid-feedback">
+                                Por favor seleccione una persona
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <select asp-for="IdProf" class="form-select" asp-items="@(new SelectList(ViewBag.Profesiones, "Id", "Nom"))" required>
+                                <option value="">Seleccione una profesión</option>
+                            </select>
+                            <label asp-for="IdProf" class="form-label">Profesión</label>
+                            <div class="invalid-feedback">
+                                Por favor seleccione una profesión
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <input asp-for="Fecha" class="form-control" type="date" required />
+                            <label asp-for="Fecha" class="form-label"></label>
+                            <div class="invalid-feedback">
+                                Por favor ingrese una fecha válida
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="form-floating">
+                            <input asp-for="Univer" class="form-control" placeholder=" " required />
+                            <label asp-for="Univer" class="form-label"></label>
+                            <div class="
