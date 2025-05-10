@@ -1,0 +1,105 @@
+@model personapi_dotnet.Models.Entities.Estudio
+@{
+    ViewData["Title"] = "Eliminar Estudio";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-danger">
+        <div class="card-header bg-danger text-white">
+            <h2 class="mb-0"><i class="fas fa-exclamation-triangle me-2"></i>@ViewData["Title"]</h2>
+        </div>
+
+        <div class="card-body">
+            <div class="alert alert-warning" role="alert">
+                <h4 class="alert-heading"><i class="fas fa-question-circle me-2"></i>¿Estás seguro de eliminar este estudio?</h4>
+                <p class="mb-0">Esta acción no se puede deshacer. Se eliminarán todos los datos relacionados permanentemente.</p>
+            </div>
+
+            <div class="details-container">
+                <div class="detail-item">
+                    <span class="detail-label">Persona:</span>
+                    <span class="detail-value">@Model.CcPerNavigation?.Nombre @Model.CcPerNavigation?.Apellido</span>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-label">Profesión:</span>
+                    <span class="detail-value">@Model.IdProfNavigation?.Nom</span>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-label">Fecha:</span>
+                    <span class="detail-value">@Model.Fecha?.ToString("dd/MM/yyyy")</span>
+                </div>
+
+                <div class="detail-item">
+                    <span class="detail-label">Universidad:</span>
+                    <span class="detail-value">@Model.Univer</span>
+                </div>
+            </div>
+
+            <form asp-action="Delete" method="post" class="mt-4">
+                <input type="hidden" name="idProf" value="@Model.IdProf" />
+                <input type="hidden" name="ccPer" value="@Model.CcPer" />
+
+                <div class="d-flex justify-content-end gap-3">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="fas fa-times me-1"></i> Cancelar
+                    </a>
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fas fa-trash-alt me-1"></i> Confirmar Eliminación
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .card {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .card-header {
+            font-weight: 600;
+        }
+        .border-danger {
+            border: 1px solid #dc3545;
+        }
+        .details-container {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        .detail-item {
+            display: flex;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .detail-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        .detail-label {
+            font-weight: 600;
+            color: #495057;
+            min-width: 150px;
+        }
+        .detail-value {
+            color: #212529;
+        }
+        .btn-danger {
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .btn-outline-secondary {
+            padding: 0.5rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+    </style>
+}

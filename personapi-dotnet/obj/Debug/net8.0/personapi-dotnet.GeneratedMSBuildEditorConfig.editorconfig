@@ -30,6 +30,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb01WQy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/EstudioMVC/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb01WQy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/EstudioMVC/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb01WQy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/EstudioMVC/Edits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb01WQy9FZGl0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/EstudioMVC/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXN0dWRpb01WQy9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,12 +54,72 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/PersonaMVC/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU1WQy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/PersonaMVC/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU1WQy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/PersonaMVC/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU1WQy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/PersonaMVC/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU1WQy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/PersonaMVC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uYU1WQy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/ProfesionMVC/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTVZDL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/ProfesionMVC/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTVZDL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/ProfesionMVC/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTVZDL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/ProfesionMVC/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTVZDL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/ProfesionMVC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmVzaW9uTVZDL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/TelefonoMVC/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NVkMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/TelefonoMVC/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NVkMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/TelefonoMVC/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NVkMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/TelefonoMVC/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NVkMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/TelefonoMVC/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVsZWZvbm9NVkMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sage/Downloads/tallerArqui/personapi-dotnet/personapi-dotnet/Views/_ViewImports.cshtml]
